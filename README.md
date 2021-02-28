@@ -4,11 +4,17 @@
 
 #### 회원
 
+>[git commit](https://github.com/baejinsoo/spring_basic/commit/11c2f1e25d7dcebc8ee9ba74b91ffa7ee6bf2785)
+>
+>[test commit](https://github.com/baejinsoo/spring_basic/commit/d510a3e23e546743d8287c43fe392f3b3efea73c)
+
 - 회원을 가입하고 조회할 수 있다.
 - 회원은 일반과 VIP 두 가지 등급이 있다.
 - 회원 데이터는 자체 DB를 구축할 수 있고, 외부 시스템과 연동할 수 있다.
 
 #### 주문과 할인 정책
+
+> [git commit](https://github.com/baejinsoo/spring_basic/commit/cac74e7d7cd6e6e612e56eba636f721be7a1cbf3)
 
 - 회원은 상품을 주문할 수 있다.
 - 회원 등급에 따라 할인 정책을 적용할 수 있다.
