@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration //애플리케이션의 구성 및 설정 정보
 public class AppConfig { // 역할과 구현 클래스가 한눈에 들어오도록 하자
-
+    // 스프링 컨테이너를 사용하면 스프링 컨테이너가 기본적으로 객체를 싱글톤으로 생성해서 관리해줌
     @Bean
     public MemberService memberService() {
         return new MemberServiceImpl(memberRepository()); // 생성자 주입
